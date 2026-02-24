@@ -1,5 +1,5 @@
 Analysis & Synthesis report for Adder
-Tue Feb 24 10:50:37 2026
+Tue Feb 24 11:27:23 2026
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 
 
@@ -42,10 +42,10 @@ refer to the applicable agreement for further details.
 +-------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                  ;
 +---------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status     ; Successful - Tue Feb 24 10:50:37 2026       ;
+; Analysis & Synthesis Status     ; Successful - Tue Feb 24 11:27:23 2026       ;
 ; Quartus Prime Version           ; 18.1.0 Build 625 09/12/2018 SJ Lite Edition ;
 ; Revision Name                   ; Adder                                       ;
-; Top-level Entity Name           ; Adder0                                      ;
+; Top-level Entity Name           ; Adder0_vhd                                  ;
 ; Family                          ; Cyclone V                                   ;
 ; Logic utilization (in ALMs)     ; N/A                                         ;
 ; Total registers                 ; 0                                           ;
@@ -68,7 +68,7 @@ refer to the applicable agreement for further details.
 ; Option                                                                          ; Setting            ; Default Value      ;
 +---------------------------------------------------------------------------------+--------------------+--------------------+
 ; Device                                                                          ; 5CGXFC7C6F23I7     ;                    ;
-; Top-level entity name                                                           ; Adder0             ; Adder              ;
+; Top-level entity name                                                           ; Adder0_vhd         ; Adder              ;
 ; Family name                                                                     ; Cyclone V          ; Cyclone V          ;
 ; Use smart compilation                                                           ; Off                ; Off                ;
 ; Enable parallel Assembler and Timing Analyzer during compilation                ; On                 ; On                 ;
@@ -165,13 +165,13 @@ refer to the applicable agreement for further details.
 +----------------------------+-------------+
 
 
-+----------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Source Files Read                                                                                                                         ;
-+----------------------------------+-----------------+------------------------------+------------------------------------------------------------------+---------+
-; File Name with User-Entered Path ; Used in Netlist ; File Type                    ; File Name with Absolute Path                                     ; Library ;
-+----------------------------------+-----------------+------------------------------+------------------------------------------------------------------+---------+
-; Adder0.sv                        ; yes             ; User SystemVerilog HDL File  ; C:/Users/Administrator/Desktop/FPGA-Verilog/0224/Adder/Adder0.sv ;         ;
-+----------------------------------+-----------------+------------------------------+------------------------------------------------------------------+---------+
++--------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                                 ;
++----------------------------------+-----------------+-----------------+-----------------------------------------------------------------------+---------+
+; File Name with User-Entered Path ; Used in Netlist ; File Type       ; File Name with Absolute Path                                          ; Library ;
++----------------------------------+-----------------+-----------------+-----------------------------------------------------------------------+---------+
+; Adder0_vhd.vhd                   ; yes             ; User VHDL File  ; C:/Users/Administrator/Desktop/FPGA-Verilog/0224/Adder/Adder0_vhd.vhd ;         ;
++----------------------------------+-----------------+-----------------+-----------------------------------------------------------------------+---------+
 
 
 +-------------------------------------------------------+
@@ -206,7 +206,7 @@ refer to the applicable agreement for further details.
 +----------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+---------------------+-------------+--------------+
 ; Compilation Hierarchy Node ; Combinational ALUTs ; Dedicated Logic Registers ; Block Memory Bits ; DSP Blocks ; Pins ; Virtual Pins ; Full Hierarchy Name ; Entity Name ; Library Name ;
 +----------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+---------------------+-------------+--------------+
-; |Adder0                    ; 2 (2)               ; 0 (0)                     ; 0                 ; 0          ; 5    ; 0            ; |Adder0             ; Adder0      ; work         ;
+; |Adder0_vhd                ; 2 (2)               ; 0 (0)                     ; 0                 ; 0          ; 5    ; 0            ; |Adder0_vhd         ; Adder0_vhd  ; work         ;
 +----------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+---------------------+-------------+--------------+
 Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
 
@@ -256,15 +256,18 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
-    Info: Processing started: Tue Feb 24 10:50:30 2026
+    Info: Processing started: Tue Feb 24 11:27:15 2026
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off Adder -c Adder
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 8 of the 8 processors detected
+Info (12021): Found 2 design units, including 1 entities, in source file adder0_vhd.vhd
+    Info (12022): Found design unit 1: Adder0_vhd-rtl File: C:/Users/Administrator/Desktop/FPGA-Verilog/0224/Adder/Adder0_vhd.vhd Line: 16
+    Info (12023): Found entity 1: Adder0_vhd File: C:/Users/Administrator/Desktop/FPGA-Verilog/0224/Adder/Adder0_vhd.vhd Line: 5
 Info (12021): Found 1 design units, including 1 entities, in source file tb_adder0.sv
     Info (12023): Found entity 1: Tb_Adder0 File: C:/Users/Administrator/Desktop/FPGA-Verilog/0224/Adder/Tb_Adder0.sv Line: 2
 Info (12021): Found 1 design units, including 1 entities, in source file adder0.sv
     Info (12023): Found entity 1: Adder0 File: C:/Users/Administrator/Desktop/FPGA-Verilog/0224/Adder/Adder0.sv Line: 1
-Info (12127): Elaborating entity "Adder0" for the top level hierarchy
+Info (12127): Elaborating entity "Adder0_vhd" for the top level hierarchy
 Info (286030): Timing-Driven Synthesis is running
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
@@ -273,9 +276,9 @@ Info (21057): Implemented 7 device resources after synthesis - the final resourc
     Info (21059): Implemented 2 output pins
     Info (21061): Implemented 2 logic cells
 Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 1 warning
-    Info: Peak virtual memory: 4837 megabytes
-    Info: Processing ended: Tue Feb 24 10:50:37 2026
-    Info: Elapsed time: 00:00:07
-    Info: Total CPU time (on all processors): 00:00:16
+    Info: Peak virtual memory: 4859 megabytes
+    Info: Processing ended: Tue Feb 24 11:27:23 2026
+    Info: Elapsed time: 00:00:08
+    Info: Total CPU time (on all processors): 00:00:17
 
 

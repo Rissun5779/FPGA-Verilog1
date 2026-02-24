@@ -16,7 +16,7 @@
 // PROGRAM "Quartus Prime"
 // VERSION "Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition"
 
-// DATE "02/24/2026 10:51:13"
+// DATE "02/24/2026 11:27:58"
 
 // 
 // Device: Altera 5CGXFC7C6F23I7 Package FBGA484
@@ -28,7 +28,7 @@
 
 `timescale 1 ps/ 1 ps
 
-module Adder0 (
+module Adder0_vhd (
 	x,
 	y,
 	Cin,
@@ -63,13 +63,13 @@ wire \~QUARTUS_CREATED_GND~I_combout ;
 wire \Cin~input_o ;
 wire \x~input_o ;
 wire \y~input_o ;
-wire \Add1~0_combout ;
-wire \Add1~1_combout ;
+wire \Cout~0_combout ;
+wire \Sum~0_combout ;
 
 
 // Location: IOOBUF_X2_Y0_N42
 cyclonev_io_obuf \Cout~output (
-	.i(\Add1~0_combout ),
+	.i(\Cout~0_combout ),
 	.oe(vcc),
 	.dynamicterminationcontrol(gnd),
 	.seriesterminationcontrol(16'b0000000000000000),
@@ -85,7 +85,7 @@ defparam \Cout~output .shift_series_termination_control = "false";
 
 // Location: IOOBUF_X4_Y0_N53
 cyclonev_io_obuf \Sum~output (
-	.i(\Add1~1_combout ),
+	.i(\Sum~0_combout ),
 	.oe(vcc),
 	.dynamicterminationcontrol(gnd),
 	.seriesterminationcontrol(16'b0000000000000000),
@@ -133,9 +133,9 @@ defparam \y~input .simulate_z_as = "z";
 // synopsys translate_on
 
 // Location: MLABCELL_X3_Y1_N0
-cyclonev_lcell_comb \Add1~0 (
+cyclonev_lcell_comb \Cout~0 (
 // Equation(s):
-// \Add1~0_combout  = ( \x~input_o  & ( \y~input_o  ) ) # ( !\x~input_o  & ( \y~input_o  & ( \Cin~input_o  ) ) ) # ( \x~input_o  & ( !\y~input_o  & ( \Cin~input_o  ) ) )
+// \Cout~0_combout  = ( \x~input_o  & ( \y~input_o  ) ) # ( !\x~input_o  & ( \y~input_o  & ( \Cin~input_o  ) ) ) # ( \x~input_o  & ( !\y~input_o  & ( \Cin~input_o  ) ) )
 
 	.dataa(gnd),
 	.datab(!\Cin~input_o ),
@@ -146,20 +146,20 @@ cyclonev_lcell_comb \Add1~0 (
 	.datag(gnd),
 	.cin(gnd),
 	.sharein(gnd),
-	.combout(\Add1~0_combout ),
+	.combout(\Cout~0_combout ),
 	.sumout(),
 	.cout(),
 	.shareout());
 // synopsys translate_off
-defparam \Add1~0 .extended_lut = "off";
-defparam \Add1~0 .lut_mask = 64'h000033333333FFFF;
-defparam \Add1~0 .shared_arith = "off";
+defparam \Cout~0 .extended_lut = "off";
+defparam \Cout~0 .lut_mask = 64'h000033333333FFFF;
+defparam \Cout~0 .shared_arith = "off";
 // synopsys translate_on
 
 // Location: MLABCELL_X3_Y1_N39
-cyclonev_lcell_comb \Add1~1 (
+cyclonev_lcell_comb \Sum~0 (
 // Equation(s):
-// \Add1~1_combout  = ( \x~input_o  & ( \y~input_o  & ( \Cin~input_o  ) ) ) # ( !\x~input_o  & ( \y~input_o  & ( !\Cin~input_o  ) ) ) # ( \x~input_o  & ( !\y~input_o  & ( !\Cin~input_o  ) ) ) # ( !\x~input_o  & ( !\y~input_o  & ( \Cin~input_o  ) ) )
+// \Sum~0_combout  = ( \x~input_o  & ( \y~input_o  & ( \Cin~input_o  ) ) ) # ( !\x~input_o  & ( \y~input_o  & ( !\Cin~input_o  ) ) ) # ( \x~input_o  & ( !\y~input_o  & ( !\Cin~input_o  ) ) ) # ( !\x~input_o  & ( !\y~input_o  & ( \Cin~input_o  ) ) )
 
 	.dataa(gnd),
 	.datab(gnd),
@@ -170,14 +170,14 @@ cyclonev_lcell_comb \Add1~1 (
 	.datag(gnd),
 	.cin(gnd),
 	.sharein(gnd),
-	.combout(\Add1~1_combout ),
+	.combout(\Sum~0_combout ),
 	.sumout(),
 	.cout(),
 	.shareout());
 // synopsys translate_off
-defparam \Add1~1 .extended_lut = "off";
-defparam \Add1~1 .lut_mask = 64'h0F0FF0F0F0F00F0F;
-defparam \Add1~1 .shared_arith = "off";
+defparam \Sum~0 .extended_lut = "off";
+defparam \Sum~0 .lut_mask = 64'h0F0FF0F0F0F00F0F;
+defparam \Sum~0 .shared_arith = "off";
 // synopsys translate_on
 
 // Location: LABCELL_X35_Y17_N0
