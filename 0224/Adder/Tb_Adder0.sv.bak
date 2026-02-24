@@ -1,0 +1,21 @@
+`timescale 1 ns/1 ns
+module Tb_Adder0;
+  reg x, y, Cin;
+  wire Cout, Sum;
+//Unit Under Test instance and port map
+Adder0 UUT (.x(x), .y(y), .Cin(Cin), .Cout(Cout), .Sum(Sum));
+initial begin  //stimulus generation block
+    x = 1'b0; y = 1'b0; Cin = 1'b0;
+    #10;  x = 1'b0; y = 1'b0; Cin = 1'b1;        
+    #10;  x = 1'b0; y = 1'b1; Cin = 1'b1;        
+    #10;  x = 1'b1; y = 1'b0; Cin = 1'b1;        
+    #10;  x = 1'b1; y = 1'b1; Cin = 1'b1;        
+    #10;  x = 1'b0; y = 1'b1; Cin = 1'b0;
+    #10;  x = 1'b1; y = 1'b0; Cin = 1'b0;
+    #10;  x = 1'b1; y = 1'b1; Cin = 1'b0;
+    #10;
+end
+initial #100 $finish;
+initial  //response monitoring block
+$monitor($realtime, "ns %h %h %h %h", x, y, Cin, {Cout, Sum});
+endmodule

@@ -1,5 +1,5 @@
 Fitter report for Adder
-Tue Feb 24 10:41:38 2026
+Tue Feb 24 10:50:59 2026
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 
 
@@ -57,7 +57,7 @@ refer to the applicable agreement for further details.
 +-------------------------------------------------------------------------------+
 ; Fitter Summary                                                                ;
 +---------------------------------+---------------------------------------------+
-; Fitter Status                   ; Successful - Tue Feb 24 10:41:38 2026       ;
+; Fitter Status                   ; Successful - Tue Feb 24 10:50:59 2026       ;
 ; Quartus Prime Version           ; 18.1.0 Build 625 09/12/2018 SJ Lite Edition ;
 ; Revision Name                   ; Adder                                       ;
 ; Top-level Entity Name           ; Adder0                                      ;
@@ -152,7 +152,7 @@ refer to the applicable agreement for further details.
 ;                            ;             ;
 ; Usage by Processor         ; % Time Used ;
 ;     Processor 1            ; 100.0%      ;
-;     Processor 2            ;   0.2%      ;
+;     Processor 2            ;   0.1%      ;
 ;     Processors 3-8         ;   0.0%      ;
 +----------------------------+-------------+
 
@@ -1138,10 +1138,10 @@ Info (334004): Delay annotation completed successfully
 Info (11801): Fitter post-fit operations ending: elapsed time is 00:00:03
 Info (144001): Generated suppressed messages file C:/Users/Administrator/Desktop/FPGA-Verilog/0224/Adder/output_files/Adder.fit.smsg
 Info: Quartus Prime Fitter was successful. 0 errors, 6 warnings
-    Info: Peak virtual memory: 7084 megabytes
-    Info: Processing ended: Tue Feb 24 10:41:39 2026
-    Info: Elapsed time: 00:00:26
-    Info: Total CPU time (on all processors): 00:01:01
+    Info: Peak virtual memory: 7082 megabytes
+    Info: Processing ended: Tue Feb 24 10:51:00 2026
+    Info: Elapsed time: 00:00:22
+    Info: Total CPU time (on all processors): 00:01:00
 
 
 +----------------------------+

@@ -1,4 +1,5 @@
 vendor_name = ModelSim
+source_file = 1, C:/Users/Administrator/Desktop/FPGA-Verilog/0224/Adder/Tb_Adder0.sv
 source_file = 1, C:/Users/Administrator/Desktop/FPGA-Verilog/0224/Adder/Adder0.sv
 source_file = 1, C:/Users/Administrator/Desktop/FPGA-Verilog/0224/Adder/db/Adder.cbx.xml
 design_name = Adder0
