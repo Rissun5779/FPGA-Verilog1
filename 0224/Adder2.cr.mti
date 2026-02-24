@@ -1,0 +1,15 @@
+C:/Users/Administrator/Desktop/FPGA-Verilog/0224/Tb_Test.v {1 {vlog -work work C:/Users/Administrator/Desktop/FPGA-Verilog/0224/Tb_Test.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module Tb_Adder0
+
+Top level modules:
+	Tb_Adder0
+
+} {} {}} C:/Users/Administrator/Desktop/FPGA-Verilog/0224/Test.v {1 {vlog -work work C:/Users/Administrator/Desktop/FPGA-Verilog/0224/Test.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module Test
+
+Top level modules:
+	Test
+
+} {} {}}

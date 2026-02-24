@@ -1,0 +1,45 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\Administrator\Desktop\FPGA-Verilog\0224\Adder-Modelsim
+vTb_Adder0
+!i10b 1
+!s100 SZkON=@@=[Vza?34d=cGn3
+I`QQomd_c@5>Wf`c]44Uc53
+V]IMLP1Y>V8<A5E]VajASN1
+Z1 dC:\Users\Administrator\Desktop\FPGA-Verilog\0224
+w1771904673
+8C:/Users/Administrator/Desktop/FPGA-Verilog/0224/Tb_Test.v
+FC:/Users/Administrator/Desktop/FPGA-Verilog/0224/Tb_Test.v
+L0 2
+Z2 OV;L;10.1d;51
+r1
+!s85 0
+31
+!s108 1771904741.398000
+!s107 C:/Users/Administrator/Desktop/FPGA-Verilog/0224/Tb_Test.v|
+!s90 -reportprogress|300|-work|work|C:/Users/Administrator/Desktop/FPGA-Verilog/0224/Tb_Test.v|
+!s101 -O0
+Z3 o-work work -O0
+n@tb_@adder0
+vTest
+Z4 !s100 T_iWM53ZQ]8;kXl0M@66f3
+Z5 I;@;W_=:QUFj0YSE=dKIlo2
+Z6 V`>I=m@6bU_j[bHD6mOdYf2
+R1
+Z7 w1771904648
+Z8 8C:/Users/Administrator/Desktop/FPGA-Verilog/0224/Test.v
+Z9 FC:/Users/Administrator/Desktop/FPGA-Verilog/0224/Test.v
+L0 1
+R2
+r1
+31
+Z10 !s90 -reportprogress|300|-work|work|C:/Users/Administrator/Desktop/FPGA-Verilog/0224/Test.v|
+R3
+Z11 n@test
+!i10b 1
+!s85 0
+Z12 !s108 1771904691.437000
+Z13 !s107 C:/Users/Administrator/Desktop/FPGA-Verilog/0224/Test.v|
+!s101 -O0

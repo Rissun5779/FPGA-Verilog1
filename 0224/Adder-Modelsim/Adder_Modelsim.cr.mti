@@ -1,0 +1,25 @@
+C:/Users/Administrator/Desktop/FPGA-Verilog/0224/Adder-Modelsim/Adder0.sv {0 {vlog -work work -sv C:/Users/Administrator/Desktop/FPGA-Verilog/0224/Adder-Modelsim/Adder0.sv
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+** Error: (vlog-42) Unsupported ModelSim library format for "C:/Users/Administrator/Desktop/FPGA-Verilog/0224/Adder-Modelsim/work". (Format: 4)
+
+** Error: Verilog Compiler exiting
+
+} {3.0 4.0 5.0 6.0} {}} C:/Users/Administrator/Desktop/FPGA-Verilog/0224/Adder-Modelsim/Test.v {0 {vlog -work work C:/Users/Administrator/Desktop/FPGA-Verilog/0224/Adder-Modelsim/Test.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+** Error: (vlog-42) Unsupported ModelSim library format for "C:/Users/Administrator/Desktop/FPGA-Verilog/0224/Adder-Modelsim/work". (Format: 4)
+
+** Error: Verilog Compiler exiting
+
+} {3.0 4.0 5.0 6.0} {}} C:/Users/Administrator/Desktop/FPGA-Verilog/0224/Adder-Modelsim/Tb_Adder0.sv {0 {vlog -work work -sv C:/Users/Administrator/Desktop/FPGA-Verilog/0224/Adder-Modelsim/Tb_Adder0.sv
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+** Error: (vlog-42) Unsupported ModelSim library format for "C:/Users/Administrator/Desktop/FPGA-Verilog/0224/Adder-Modelsim/work". (Format: 4)
+
+** Error: Verilog Compiler exiting
+
+} {3.0 4.0 5.0 6.0} {}} C:/Users/Administrator/Desktop/FPGA-Verilog/0224/Adder-Modelsim/Adder0_vhd.vhd {0 {vcom -work work -2002 -explicit C:/Users/Administrator/Desktop/FPGA-Verilog/0224/Adder-Modelsim/Adder0_vhd.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+** Error: (vcom-42) Unsupported ModelSim library format for "C:/Users/Administrator/Desktop/FPGA-Verilog/0224/Adder-Modelsim/work". (Format: 4)
+
+** Error: VHDL Compiler exiting
+
+} {3.0 4.0 5.0 6.0} {}}

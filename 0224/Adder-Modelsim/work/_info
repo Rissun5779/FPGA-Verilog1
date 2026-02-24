@@ -1,0 +1,123 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA_lite/18.1
+vAdder0
+Z0 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+Z1 !s110 1771904107
+!i10b 1
+!s100 okkF><o3m:^@QjPofJEZF3
+ISzfk>G9G<DPSB7c3Rg_bB3
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+!s105 Adder0_sv_unit
+S1
+Z3 dC:/Users/Administrator/Desktop/FPGA-Verilog/0224/Adder-Modelsim
+w1771900635
+8C:/Users/Administrator/Desktop/FPGA-Verilog/0224/Adder-Modelsim/Adder0.sv
+FC:/Users/Administrator/Desktop/FPGA-Verilog/0224/Adder-Modelsim/Adder0.sv
+L0 1
+Z4 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z5 !s108 1771904107.000000
+!s107 C:/Users/Administrator/Desktop/FPGA-Verilog/0224/Adder-Modelsim/Adder0.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/Administrator/Desktop/FPGA-Verilog/0224/Adder-Modelsim/Adder0.sv|
+!i113 1
+Z6 o-work work -sv
+Z7 tCvgOpt 0
+n@adder0
+Eadder0_vhd
+Z8 w1771903305
+Z9 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+Z10 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z11 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R3
+Z12 8C:/Users/Administrator/Desktop/FPGA-Verilog/0224/Adder-Modelsim/Adder0_vhd.vhd
+Z13 FC:/Users/Administrator/Desktop/FPGA-Verilog/0224/Adder-Modelsim/Adder0_vhd.vhd
+l0
+L5
+Vi00?:oK?0]CjcJ0EYV_GC0
+!s100 4`4Bn>2gd@_AVobZG`T>D1
+Z14 OV;C;10.5b;63
+32
+R1
+!i10b 1
+R5
+Z15 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Administrator/Desktop/FPGA-Verilog/0224/Adder-Modelsim/Adder0_vhd.vhd|
+Z16 !s107 C:/Users/Administrator/Desktop/FPGA-Verilog/0224/Adder-Modelsim/Adder0_vhd.vhd|
+!i113 1
+Z17 o-work work -2002 -explicit
+Z18 tExplicit 1 CvgOpt 0
+Artl
+R9
+R10
+R11
+DEx4 work 10 adder0_vhd 0 22 i00?:oK?0]CjcJ0EYV_GC0
+l17
+L16
+Vghn>XamS1z?azg[2W6ih70
+!s100 ORjhW9C>79S:V;8hc0O>W2
+R14
+32
+R1
+!i10b 1
+R5
+R15
+R16
+!i113 1
+R17
+R18
+vTb_Adder0
+R0
+!s110 1771904108
+!i10b 1
+!s100 G6SdL00Ic8z:b7@A]_8OF1
+IoahN@86j?aFXNNN>HA@K13
+R2
+!s105 Tb_Adder0_sv_unit
+S1
+R3
+w1771903717
+8C:/Users/Administrator/Desktop/FPGA-Verilog/0224/Adder-Modelsim/Tb_Adder0.sv
+FC:/Users/Administrator/Desktop/FPGA-Verilog/0224/Adder-Modelsim/Tb_Adder0.sv
+L0 2
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/Administrator/Desktop/FPGA-Verilog/0224/Adder-Modelsim/Tb_Adder0.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/Administrator/Desktop/FPGA-Verilog/0224/Adder-Modelsim/Tb_Adder0.sv|
+!i113 1
+R6
+R7
+n@tb_@adder0
+vTest
+!s110 1771904295
+!i10b 1
+!s100 ZlUVfHkXOnk4:E_VaVJcQ0
+Iz@SM78GhiI>h]aZ?i<hO^1
+R2
+R3
+w1771904291
+8C:/Users/Administrator/Desktop/FPGA-Verilog/0224/Adder-Modelsim/Test.v
+FC:/Users/Administrator/Desktop/FPGA-Verilog/0224/Adder-Modelsim/Test.v
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1771904295.000000
+!s107 C:/Users/Administrator/Desktop/FPGA-Verilog/0224/Adder-Modelsim/Test.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Administrator/Desktop/FPGA-Verilog/0224/Adder-Modelsim/Test.v|
+!i113 1
+o-work work
+R7
+n@test

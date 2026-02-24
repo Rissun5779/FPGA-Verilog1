@@ -1,0 +1,10 @@
+module Test(
+  input  bit x,
+  input  bit y,
+  input  bit Cin,
+  
+  output bit Cout,
+  output bit Sum
+);
+  assign {Cout, Sum} = x+y+Cin;
+endmodule 
