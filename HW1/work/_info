@@ -1,0 +1,178 @@
+m255
+K4
+z2
+Z0 !s12c _opt
+Z1 !s99 mlopt
+R0
+R1
+R0
+R1
+!s12c _opt2
+R1
+R0
+R1
+!s12c _opt1
+Z2 !s99 nomlopt
+R0
+R1
+!s11f MIXED_VERSIONS
+!s11e vcom 2024.3 2024.09, Sep 10 2024
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z3 d/home/rissun57/Desktop/Git/FPGA-Verilog1/HW1
+T_opt
+!s110 1772813088
+V5IMO<0O3OHG8zk?[KcaS<1
+Z4 04 8 4 work Tb_Fadd4 fast 0
+=1-801f024261c5-69aafb20-1802f-5f5e1
+R1
+Z5 !s12f OEM100
+Z6 !s12b OEM100
+Z7 !s124 OEM10U6 
+Z8 !s135 nogc
+Z9 o-quiet -auto_acc_if_foreign -work work +acc
+Z10 tCvgOpt 0
+n@_opt
+Z11 OL;O;2024.3;79
+T_opt1
+!s110 1772812628
+VY]Q<VLFoH5dz^GVX@LLEz0
+04 5 3 work fadd4 rtl 1
+=1-801f024261c5-69aaf953-ecdd2-5e2b2
+R2
+R5
+R6
+!s124 OEM10U5 
+R8
+R9
+R10
+n@_opt1
+R11
+R3
+T_opt2
+!s110 1772812728
+VS5>8JW@eodID3;3J^O@[N2
+R4
+=1-801f024261c5-69aaf9b8-4e246-5ea05
+R1
+R5
+R6
+R7
+R8
+o-quiet -auto_acc_if_foreign -work work
+R10
+n@_opt2
+R11
+R3
+Efadd
+Z12 w1772810287
+Z13 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z14 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 17
+R3
+Z15 8/home/rissun57/Desktop/Git/FPGA-Verilog1/HW1/fadd.vhd
+Z16 F/home/rissun57/Desktop/Git/FPGA-Verilog1/HW1/fadd.vhd
+l0
+L4 1
+VijMVC00K:@I^=1Nk;JmMd3
+!s100 i5MKeZN2JXgM2ELLkXWF@1
+Z17 OL;C;2024.3;79
+32
+Z18 !s110 1772813082
+!i10b 1
+Z19 !s108 1772813082.000000
+Z20 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|/home/rissun57/Desktop/Git/FPGA-Verilog1/HW1/fadd.vhd|
+Z21 !s107 /home/rissun57/Desktop/Git/FPGA-Verilog1/HW1/fadd.vhd|
+!i113 0
+Z22 o-work work -2002 -explicit
+Z23 tExplicit 1 CvgOpt 0
+Artl
+R13
+R14
+DEx4 work 4 fadd 0 22 ijMVC00K:@I^=1Nk;JmMd3
+!i122 17
+l16
+L14 6
+V1OlVR_H6lDR:2DY;FFNfk2
+!s100 dBI7DUnKoUF=d8a21eQaP0
+R17
+32
+R18
+!i10b 1
+R19
+R20
+R21
+!i113 0
+R22
+R23
+Efadd4
+Z24 w1772810443
+Z25 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+R13
+R14
+!i122 18
+R3
+Z26 8/home/rissun57/Desktop/Git/FPGA-Verilog1/HW1/Fadd4.vhd
+Z27 F/home/rissun57/Desktop/Git/FPGA-Verilog1/HW1/Fadd4.vhd
+l0
+L5 1
+VnThV]UH`iE4HlGcA=05511
+!s100 djbTHVN5RF>VlW6G0RzG<1
+R17
+32
+R18
+!i10b 1
+R19
+Z28 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|/home/rissun57/Desktop/Git/FPGA-Verilog1/HW1/Fadd4.vhd|
+Z29 !s107 /home/rissun57/Desktop/Git/FPGA-Verilog1/HW1/Fadd4.vhd|
+!i113 0
+R22
+R23
+Artl
+R25
+R13
+R14
+DEx4 work 5 fadd4 0 22 nThV]UH`iE4HlGcA=05511
+!i122 18
+l26
+L14 49
+V<L1m[kLdY2A>Y;I3YATDY0
+!s100 QI3;>Zf12@aJFWJQZ>Bm_1
+R17
+32
+R18
+!i10b 1
+R19
+R28
+R29
+!i113 0
+R22
+R23
+vTb_Fadd4
+2/home/rissun57/Desktop/Git/FPGA-Verilog1/HW1/Tb_Fadd4.v
+!s110 1772813083
+!i10b 1
+!s100 :GUOCmmgdQ`FY9P33B^8i0
+IYa7Aa[_2Oz]45?0B=jC<V3
+R3
+w1772813065
+8/home/rissun57/Desktop/Git/FPGA-Verilog1/HW1/Tb_Fadd4.v
+F/home/rissun57/Desktop/Git/FPGA-Verilog1/HW1/Tb_Fadd4.v
+!i122 19
+L0 2 29
+VDg1SIo80bB@j0V0VzS_@n1
+OL;L;2024.3;79
+r1
+!s85 0
+31
+R19
+!s107 /home/rissun57/Desktop/Git/FPGA-Verilog1/HW1/Tb_Fadd4.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|/home/rissun57/Desktop/Git/FPGA-Verilog1/HW1/Tb_Fadd4.v|
+!i113 0
+o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R10
+n@tb_@fadd4
