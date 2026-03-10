@@ -1,0 +1,10 @@
+vendor_name = ModelSim
+source_file = 1, E:/2025_2/FPGA-Verilog/Lab2/Tb_SR_Latch.v
+source_file = 1, E:/2025_2/FPGA-Verilog/Lab2/SR_Latch.v
+source_file = 1, E:/2025_2/FPGA-Verilog/Lab2/db/Lab2.cbx.xml
+design_name = SR_Latch
+instance = comp, \Q~output , Q~output, SR_Latch, 1
+instance = comp, \Qbar~output , Qbar~output, SR_Latch, 1
+instance = comp, \Set~input , Set~input, SR_Latch, 1
+instance = comp, \Reset~input , Reset~input, SR_Latch, 1
+instance = comp, \~QUARTUS_CREATED_GND~I , ~QUARTUS_CREATED_GND~I, SR_Latch, 1

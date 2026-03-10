@@ -1,0 +1,5 @@
+module SR_Latch(
+
+);
+
+endmodule 

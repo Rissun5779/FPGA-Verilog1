@@ -1,0 +1,7 @@
+|SR_Latch
+Set => NA0.IN1
+Reset => NA1.IN0
+Q << Q.DB_MAX_OUTPUT_PORT_TYPE
+Qbar << NA1.DB_MAX_OUTPUT_PORT_TYPE
+
+
