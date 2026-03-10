@@ -1,0 +1,78 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dE:/2025_2/FPGA-Verilog/HW1/simulation/modelsim
+vfadd
+Z1 !s110 1773106309
+!i10b 1
+!s100 mL`Q?J_L5i`S>lZXQQ2TZ2
+I`gMFo02@FD`QGb639DgWh0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1773105762
+8E:/2025_2/FPGA-Verilog/HW1/simulation/fadd.v
+FE:/2025_2/FPGA-Verilog/HW1/simulation/fadd.v
+L0 17
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+!s108 1773106308.000000
+!s107 E:/2025_2/FPGA-Verilog/HW1/simulation/fadd.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/2025_2/FPGA-Verilog/HW1/simulation|E:/2025_2/FPGA-Verilog/HW1/simulation/fadd.v|
+!i113 1
+Z4 o-vlog01compat -work work
+!s92 -vlog01compat -work work +incdir+E:/2025_2/FPGA-Verilog/HW1/simulation
+Z5 tCvgOpt 0
+vFadd4
+R1
+!i10b 1
+!s100 ?3F<XojzO6IoUCoWcDV=E0
+I32N;A5U_d6]`2dRGQ6V8^3
+R2
+R0
+w1773106132
+8E:/2025_2/FPGA-Verilog/HW1/Fadd4.v
+FE:/2025_2/FPGA-Verilog/HW1/Fadd4.v
+L0 1
+R3
+r1
+!s85 0
+31
+Z6 !s108 1773106309.000000
+!s107 E:/2025_2/FPGA-Verilog/HW1/Fadd4.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/2025_2/FPGA-Verilog/HW1|E:/2025_2/FPGA-Verilog/HW1/Fadd4.v|
+!i113 1
+R4
+Z7 !s92 -vlog01compat -work work +incdir+E:/2025_2/FPGA-Verilog/HW1
+R5
+n@fadd4
+vTb_Fadd4
+R1
+!i10b 1
+!s100 cAbI=H^h7Bi^FeX`HQ26:2
+I[hBM1zm1>PoP4W<;:48;j1
+R2
+R0
+w1772755584
+8E:/2025_2/FPGA-Verilog/HW1/Tb_Fadd4.v
+FE:/2025_2/FPGA-Verilog/HW1/Tb_Fadd4.v
+L0 2
+R3
+r1
+!s85 0
+31
+R6
+!s107 E:/2025_2/FPGA-Verilog/HW1/Tb_Fadd4.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/2025_2/FPGA-Verilog/HW1|E:/2025_2/FPGA-Verilog/HW1/Tb_Fadd4.v|
+!i113 1
+R4
+R7
+R5
+n@tb_@fadd4

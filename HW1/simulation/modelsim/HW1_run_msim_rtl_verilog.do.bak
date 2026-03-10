@@ -1,0 +1,10 @@
+transcript on
+if {[file exists rtl_work]} {
+	vdel -lib rtl_work -all
+}
+vlib rtl_work
+vmap work rtl_work
+
+vlog -vlog01compat -work work +incdir+E:/2025_2/FPGA-Verilog/HW1/simulation {E:/2025_2/FPGA-Verilog/HW1/simulation/fadd.v}
+vlog -vlog01compat -work work +incdir+E:/2025_2/FPGA-Verilog/HW1 {E:/2025_2/FPGA-Verilog/HW1/Fadd4.v}
+
