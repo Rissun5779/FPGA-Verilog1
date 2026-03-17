@@ -1,0 +1,42 @@
+`timescale 1ns/1ns
+module Tb_MUL2_1;
+  //Ports
+  reg IN_A;
+  reg IN_B;
+  reg Sel;
+  wire OUT_F;
+
+  MUL2_1  DUT (
+    .IN_A(IN_A),
+    .IN_B(IN_B),
+    .Sel(Sel),
+    .OUT_F(OUT_F)
+  );
+  
+  initial begin
+    IN_A = 0;
+    IN_B = 0;
+    Sel  = 0;
+
+    #100
+    IN_B = 1;
+    #200;
+    IN_B = 0;
+    #100;
+    IN_B = 1;
+    #100;
+    IN_B = 0;
+    #200 IN_B = 1;
+
+    #100 $finish;
+  end
+
+  always begin
+    #100 IN_A = IN_A + 1'b1;
+  end
+  
+  always begin
+    #300 Sel  = Sel + 1'b1;
+  end
+//always #5  clk = ! clk ;
+endmodule

@@ -1,0 +1,13 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/Administrator/Desktop/Lab3/Tb_MUL2_1.v
+source_file = 1, C:/Users/Administrator/Desktop/Lab3/MUL2_1.v
+source_file = 1, C:/Users/Administrator/Desktop/Lab3/Tb_HA.v
+source_file = 1, C:/Users/Administrator/Desktop/Lab3/HA.v
+source_file = 1, C:/Users/Administrator/Desktop/Lab3/db/Lab3.cbx.xml
+design_name = MUL2_1
+instance = comp, \OUT_F~output , OUT_F~output, MUL2_1, 1
+instance = comp, \Sel~input , Sel~input, MUL2_1, 1
+instance = comp, \IN_A~input , IN_A~input, MUL2_1, 1
+instance = comp, \IN_B~input , IN_B~input, MUL2_1, 1
+instance = comp, \OUT_F~0 , OUT_F~0, MUL2_1, 1
+instance = comp, \~QUARTUS_CREATED_GND~I , ~QUARTUS_CREATED_GND~I, MUL2_1, 1

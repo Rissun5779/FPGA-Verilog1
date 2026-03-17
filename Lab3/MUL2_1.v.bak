@@ -1,0 +1,19 @@
+module MUL2_1(
+  input  IN_A,
+  input  IN_B,
+  input  Sel,
+  output OUT_F
+);
+  reg tmp;
+
+  always @(Sel) begin
+    case (Sel)
+        1 : tmp <= IN_A;
+        0 : tmp <= IN_B;
+        default: 
+          tmp <= tmp;
+    endcase
+  end
+
+  assign OUT_F = tmp;
+endmodule 
