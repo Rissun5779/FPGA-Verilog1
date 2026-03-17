@@ -1,7 +1,17 @@
-|SR_Latch
-Set => NA0.IN1
-Reset => NA1.IN0
-Q << Q.DB_MAX_OUTPUT_PORT_TYPE
-Qbar << NA1.DB_MAX_OUTPUT_PORT_TYPE
+|fulladd4
+IN_A[0] => _.DATAD
+IN_A[1] => _.DATAD
+IN_A[2] => _.DATAD
+IN_A[3] => _.DATAD
+IN_B[0] => _.DATAC
+IN_B[1] => _.DATAC
+IN_B[2] => _.DATAC
+IN_B[3] => _.DATAC
+Cin => _.DATAB
+Sum[0] <= _.SUM_OUT
+Sum[1] <= _.SUM_OUT
+Sum[2] <= _.SUM_OUT
+Sum[3] <= _.SUM_OUT
+Cout <= _.SUM_OUT
 
 

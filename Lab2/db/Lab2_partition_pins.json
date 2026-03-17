@@ -4,19 +4,59 @@
 			"name" : "Top",
 			"pins" : [
 				{
-					"name" : "Q",
+					"name" : "Sum[0]",
 					"strict" : false
 				},
 				{
-					"name" : "Qbar",
+					"name" : "Sum[1]",
 					"strict" : false
 				},
 				{
-					"name" : "Reset",
+					"name" : "Sum[2]",
 					"strict" : false
 				},
 				{
-					"name" : "Set",
+					"name" : "Sum[3]",
+					"strict" : false
+				},
+				{
+					"name" : "Cout",
+					"strict" : false
+				},
+				{
+					"name" : "Cin",
+					"strict" : false
+				},
+				{
+					"name" : "IN_B[0]",
+					"strict" : false
+				},
+				{
+					"name" : "IN_A[0]",
+					"strict" : false
+				},
+				{
+					"name" : "IN_B[1]",
+					"strict" : false
+				},
+				{
+					"name" : "IN_A[1]",
+					"strict" : false
+				},
+				{
+					"name" : "IN_B[2]",
+					"strict" : false
+				},
+				{
+					"name" : "IN_A[2]",
+					"strict" : false
+				},
+				{
+					"name" : "IN_B[3]",
+					"strict" : false
+				},
+				{
+					"name" : "IN_A[3]",
 					"strict" : false
 				}
 			]

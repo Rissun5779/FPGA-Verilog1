@@ -1,0 +1,9 @@
+module fulladd4(
+  input  [3:0] IN_A,
+  input  [3:0] IN_B,
+  input        Cin,
+  output [3:0] Sum,
+  output       Cout
+);
+  assign {Cout, Sum} = IN_A + IN_B + Cin;
+endmodule

@@ -1,4 +1,4 @@
-`timescale 1ns/10ps
+`timescale 1ns/1ns
 module Tb_SR_Latch;
 
   // Parameters
@@ -16,14 +16,15 @@ module Tb_SR_Latch;
     .Qbar(Qbar)
   );
 
-//always #5  clk = ! clk ;
   initial begin
-    $monitor($time, "set = %b, reset = %b, q = %b\n", 
+    $monitor($time, " set = %b, reset = %b, q = %b\n", 
                     Set, Reset, Q);
     Set   = 0;
     Reset = 0;
     #5 Reset = 1;
     #5 Reset = 0;
     #5 Set   = 1;
+
+    #5;
   end  
 endmodule

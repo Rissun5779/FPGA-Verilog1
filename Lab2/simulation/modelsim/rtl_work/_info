@@ -8,49 +8,48 @@ z2
 !i10f 100
 cModel Technology
 Z0 dE:/2025_2/FPGA-Verilog/Lab2/simulation/modelsim
-vSR_Latch
-Z1 !s110 1773112279
+vfulladd4
+!s110 1773114580
 !i10b 1
-!s100 NP]1?8IiFh0fDBCYoWGFj2
-IEXUV^cl<?fTM0TT9]U:Lk0
-Z2 VDg1SIo80bB@j0V0VzS_@n1
+!s100 1ejiY]OA<M8PISJ4jR6GT1
+I:=h0>__RiTK<87:9]Q3d^2
+Z1 VDg1SIo80bB@j0V0VzS_@n1
 R0
-w1773111890
-8E:/2025_2/FPGA-Verilog/Lab2/SR_Latch.v
-FE:/2025_2/FPGA-Verilog/Lab2/SR_Latch.v
+w1773114084
+8E:/2025_2/FPGA-Verilog/Lab2/fulladd4.v
+FE:/2025_2/FPGA-Verilog/Lab2/fulladd4.v
 L0 1
-Z3 OV;L;10.5b;63
+Z2 OV;L;10.5b;63
 r1
 !s85 0
 31
-Z4 !s108 1773112279.000000
-!s107 E:/2025_2/FPGA-Verilog/Lab2/SR_Latch.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/2025_2/FPGA-Verilog/Lab2|E:/2025_2/FPGA-Verilog/Lab2/SR_Latch.v|
+!s108 1773114580.000000
+!s107 E:/2025_2/FPGA-Verilog/Lab2/fulladd4.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/2025_2/FPGA-Verilog/Lab2|E:/2025_2/FPGA-Verilog/Lab2/fulladd4.v|
 !i113 1
-Z5 o-vlog01compat -work work
-Z6 !s92 -vlog01compat -work work +incdir+E:/2025_2/FPGA-Verilog/Lab2
-Z7 tCvgOpt 0
-n@s@r_@latch
-vTb_SR_Latch
-R1
+Z3 o-vlog01compat -work work
+Z4 !s92 -vlog01compat -work work +incdir+E:/2025_2/FPGA-Verilog/Lab2
+Z5 tCvgOpt 0
+vTb_fulladd4
+!s110 1773114581
 !i10b 1
-!s100 dUc1Fz9l;oGIo1NTHSmn@1
-IdFY^loH2BKbj09TRFjPb<1
-R2
+!s100 0o[@G5O6P<<GCW2bZH6Rc2
+I;5O5CPoM2z[??aJNMb9E10
+R1
 R0
-w1773112274
-8E:/2025_2/FPGA-Verilog/Lab2/Tb_SR_Latch.v
-FE:/2025_2/FPGA-Verilog/Lab2/Tb_SR_Latch.v
+w1773114568
+8E:/2025_2/FPGA-Verilog/Lab2/Tb_fulladd4.v
+FE:/2025_2/FPGA-Verilog/Lab2/Tb_fulladd4.v
 L0 2
-R3
+R2
 r1
 !s85 0
 31
-R4
-!s107 E:/2025_2/FPGA-Verilog/Lab2/Tb_SR_Latch.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/2025_2/FPGA-Verilog/Lab2|E:/2025_2/FPGA-Verilog/Lab2/Tb_SR_Latch.v|
+!s108 1773114581.000000
+!s107 E:/2025_2/FPGA-Verilog/Lab2/Tb_fulladd4.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/2025_2/FPGA-Verilog/Lab2|E:/2025_2/FPGA-Verilog/Lab2/Tb_fulladd4.v|
 !i113 1
+R3
+R4
 R5
-R6
-R7
-n@tb_@s@r_@latch
+n@tb_fulladd4
